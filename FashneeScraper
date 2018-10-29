@@ -1,0 +1,21 @@
+#!/bin/bash
+
+. venv/bin/activate
+cd QMFashion
+
+scrapy crawl dawn
+scrapy crawl fashion360
+scrapy crawl editionpk
+scrapy crawl karachista
+scrapy crawl secretcloset
+scrapy crawl mangobaaz
+scrapy crawl sunday
+scrapy crawl trendinginsocial
+scrapy crawl tribune
+
+deactivate
+
+cd ../..
+cd facebookposting
+. venv/bin/activate
+python script.py

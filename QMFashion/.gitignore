@@ -1,0 +1,7 @@
+QMFashion/__pycache__
+QMFashion/spiders/__pycache__/
+__pycache__
+venv
+*.pyc
+QMFashion/.DS_Store
+QMFashion/spiders/.DS_Store
