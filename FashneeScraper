@@ -8,6 +8,8 @@ scrapy crawl fashion360
 scrapy crawl editionpk
 scrapy crawl karachista
 scrapy crawl secretcloset
+scrapy crawl siddysays
+scrapy crawl somethinghautte
 scrapy crawl mangobaaz
 scrapy crawl sunday
 scrapy crawl trendinginsocial
@@ -16,6 +18,6 @@ scrapy crawl tribune
 deactivate
 
 cd ../..
-cd facebookposting
+cd seleniumFacebookPosting
 . venv/bin/activate
 python script.py
